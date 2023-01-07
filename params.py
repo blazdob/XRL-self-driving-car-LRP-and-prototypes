@@ -1,0 +1,22 @@
+args = {
+    'n_episodes': 1000,
+    'max_t': 1500,
+    'eps_start': 1.0,
+    'eps_end': 0.01,
+    'eps_decay': 0.996,
+    'render': False,
+    'buffer_size': 100000,
+    'batch_size': 64,
+    'gamma': 0.99,
+    'tau': 1e-3,
+    'lr': 5e-4,
+    'update_every': 4,
+    'load_model': False,
+    'save_model_path': 'saved-models/',
+    'load_model_path': 'saved-models/model_fully_learned_LRP_end.pth',
+    'train': True,
+    'render': True,
+    'rule': "alpha1beta0", # gradient, input*gradient, epsilon, gamma+epsilon, alpha1beta0, alpha2beta1
+    'save_video': True,
+    'results_path': 'results/',
+}
