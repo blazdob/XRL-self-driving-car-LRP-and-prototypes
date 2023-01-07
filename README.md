@@ -17,7 +17,7 @@ The code contains an environment for self driving car located in folder `self_dr
 The agent definition is located in `dqn_agent.py` and the plain learning without explanations and the default DQN agent is located in `main.py`. parameters for the agent are located in `params.py`. and can be changed there.
 
 The code conatins two explanations examples:
-* `main_lrp.py` - this file contains the code for the first example, where we explain the behaviour of the agent in the environment usin an alteration of LRP feature attribution to the individual sensors.
+* `main_lrp.py` - this file contains the code for the first example, where we explain the behaviour of the agent in the environment usin an alteration of LRP feature attribution to the individual sensors. The torch implementation of LRP layers is the work by Frederik Hvilshøj [https://github.com/fhvilshoj/TorchLRP].
 * `main_prototypes.py` - this file contains the code for the second example, where we explain the behaviour of the agent in the environment using human defined prototypes of the environment.
 
 ## Running the code
