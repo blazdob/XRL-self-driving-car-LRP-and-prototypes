@@ -4,7 +4,7 @@ This repository contains the code for the examples in the report for PhD researc
 
 ## Installation
 
-The code is written in Python 3.9. In order to reproduce the results, you need to install a virtual environment defined in the `requirements.yml` file. This can be done by running the following command:
+The code is written in Python 3.9. In order to reproduce the results, you need to install a virtual environment defined in the `environment.yml` file. This can be done by running the following command:
 
 ```bash
 conda env create -f environment.yml
