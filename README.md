@@ -7,7 +7,7 @@ This repository contains the code for the examples in the report for an PhD rese
 The code is written in Python 3.9. In order to reproduce the results, you need to install an virtual enviorment defined in the `requirements.yml` file. This can be done by running the following command:
 
 ```bash
-conda env create -f requirements.yml
+conda env create -f environment.yml
 ```
 
 ## Contence of the repository
